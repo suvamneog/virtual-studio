@@ -1,4 +1,4 @@
-import { HDKComponent, HNode, Prefab, render, InfoPanel, Model } from '@hiber3d/hdk-react';
+import { HDKComponent, HNode, Prefab, render, InfoPanel, GLB } from '@hiber3d/hdk-react';
 import { Ground, Spawnpoint } from '@hiber3d/hdk-react-components';
 
 const Sign: HDKComponent<{ header: string; body: string; url: string }> = ({ ...props }) => (
@@ -10,7 +10,7 @@ const Sign: HDKComponent<{ header: string; body: string; url: string }> = ({ ...
 const World = () => (
   <HNode>
     <Spawnpoint />
-    <Model src="music_studio_at_home.glb" />
+    <GLB src="music_studio_at_home.glb" />
   </HNode>
 );
 
