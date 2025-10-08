@@ -10,7 +10,7 @@ const Sign: HDKComponent<{ header: string; body: string; url: string }> = ({ ...
 const World = () => (
   <HNode>
     <Spawnpoint />
-    <GLB src="music_studio_at_home.glb" />
+    <GLB src="/music_studio_at_home.glb" />
   </HNode>
 );
 
