@@ -12,6 +12,7 @@ const World = () => (
     <Ground />
     <Spawnpoint />
     <Model src="music_studio_at_home.glb" z={5} />
+    <Model src="studio_monitor_jbl_lsr308.glb" x={2} z={5} />
     <Sign
       header="Welcome to Hiber3D HDK!"
       body="This is The Getting Started world. Press O to learn how to build something!"
